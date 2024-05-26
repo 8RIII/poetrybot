@@ -4,33 +4,45 @@ This project aims to create an interactive web application using Streamlit and t
 
 ## Features:
 
-## User Prompt Input: Users can enter a prompt or theme for their poem.
-Poem Type Selection: Users can choose between generating a Haiku or a Tanka.
+User Prompt Input: Users can enter a prompt or theme for their poem. 
+<br />
+Poem Type Selection: Users can choose between generating a Haiku or a Tanka. 
+<br />
 Poem Generation: Using the OpenAI API, the app generates a poem based on the user's input.
+<br />
 Interactive UI: A user-friendly interface built with Streamlit, allowing easy interaction and immediate results.
+<br />
 Regenerate Option: Users can generate another poem with the same or a new prompt.
-Technology Stack:
+<br />
+
+## Technology Stack:
 
 Streamlit: For building the web application interface.
+<br />
 OpenAI API: For generating the content of the poems.
+<br />
 Python: The programming language used to integrate Streamlit with the OpenAI API.
+<br />
 streamlit-js-eval: For handling JavaScript evaluations in Streamlit.
+<br />
 python-dotenv: For loading environment variables securely.
-Installation and Setup
+<br />
 
-## Clone the repository:
+## Installation and Setup
+
+### Clone the repository:
 git clone https://github.com/your-username/short-poetry-creator.git
 cd short-poetry-creator
 
-## Create and activate a virtual environment:
+### Create and activate a virtual environment:
 python -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 
-## Install dependencies:
+### Install dependencies:
 pip install -r requirements.txt
 
-## Set up environment variables:
-### Create a .env file in the project directory and add your OpenAI API key:
+### Set up environment variables:
+#### Create a .env file in the project directory and add your OpenAI API key:
 
 OPENAI_API_KEY=your-openai-api-key
 
